@@ -1,3 +1,10 @@
+/*
+ * Take the FEFF output spectra of individual atoms,
+ * interpolates all simulataed spectra over the same energy range,
+ * and computes the averaged spectrum.
+ * All spectra and averaged spectrum are written in 
+ * files Combo.dat and ave.dat
+ */
 #include <vector>
 #include <string>
 #include <iostream>
