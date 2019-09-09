@@ -1,7 +1,7 @@
 # FEFF_spectra
 This code reads the output spectra of FEFF code (http://monalisa.phys.washington.edu/feffproject-feff.html),<br/> 
 interpolates all simulataed spectra over the same energy range, and computes the averaged spectrum.<br/> 
-In FEFF run, the spectra of each centered atoms were computed in the folders named by atom indices (see example folder).<br/> 
+In FEFF run, the spectra of each centered atoms were computed in the folders named by atom indices (see the example folder).<br/> 
 
 To compile:<br/> 
 g++ -std=c++11 -o Average_FEFF_spectra.exe main.cxx<br/> 
